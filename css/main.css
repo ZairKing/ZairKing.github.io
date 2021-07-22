@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+.container {
+    width: 980px;
+}
+
+.clear {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+
+#header, #footer {
+    width: 980px;
+    background-color: #272727;
+    height: 82px;
+    overflow: auto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 19.36px;
+}
+
+#footer {
+    margin-top: 70px;
+    height: 98px;
+    color: white;
+    text-align: center;
+}
+
+#header a, #footer a, #header div.active a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#header a:hover, #footer a:hover {
+    color: #AD9178;
+}
+
+body {
+    width: 980px;
+    min-width: 980px;
+    margin: auto;
+    font-family: Inter;
+    color:#272727;
+}
+
+#logo {
+    margin-left: 39px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 50px;
+    width: 115px;
+    background-image: url("../images/logo.svg");
+}
+
+#menu {
+    margin-left: 229px;
+    margin-right: 40px;
+    width: 557px;
+    height: 38px;
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.menu-item {
+    width: auto;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.menu-item:first-child {
+    margin-left: 0px;
+}
+
+.menu-item:last-child {
+    margin-right: 0px;
+}
+
+.active {
+    background: #AD9178;
+    border-radius: 2px;
+}
+
+.menu-item-text {
+    margin: 7px 15px 7px 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(255, 255, 255, .2);
+}
+
+#creds {
+    text-align: left;
+    margin-left: 37px;
+    margin-top: 28px;
+    width: 194px;
+}
+
+#bottom-menu {
+    margin: 30px 40px 30px 356px;
+    width: 350px;
+}
+
+.bottom-menu-item {
+    width: auto;
+}
+
+#bottom-menu .menu-item-text {
+    width: auto;
+}
+
+#wool {
+    height: 662px;
+    background-image: url("../images/wool.jpg");
+    background-repeat: no-repeat;
+}
+
+#title {
+    width: 800px;
+    margin: auto;
+    padding-top: 40px;
+    font-size: 94px;
+    font-family: Pacifico;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 165px;
+    color: #272727;
+    text-align: center;
+}
+
+#description {
+    width: 795px;
+    margin: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24.2px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+#article {
+    width: 812px;
+    margin: 60px 128px 45px 40px;
+    height: 451px;
+}
+
+#article-main-content {
+    width: 551px;
+}
+
+#article-main-content h2 {
+    font-size: 42px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 50.83px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+#article-main-content p, #article-main-content a {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24.2px;
+    text-align: left;
+    margin: 0 0 16px 0;
+}
+
+#article-main-content a {
+    color: #8EAFFD;
+    margin: 0 0 0 0;
+    text-decoration: underline;
+}
+
+#article-additional-content {
+    margin-top: 70px;
+    margin-left: 24px;
+    width: 237px;
+    height: 323px;
+}
+
+#article-additional-image {
+    width: 166px;
+    height: 188px;
+    background-image: url("../images/lanalin.png");
+}
+
+#article-additional-image-description {
+    width: 237px;
+    height: 123px;
+}
+
+#article-additional-image-description h6 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21.78px;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+#article-additional-image-description p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#merino {
+    width: 900px;
+    margin: auto;
+    position: relative;
+    color: #FFFFFF;
+}
+
+#merino-image-info {
+    position: absolute;
+    top: 41px;
+    left: 42px;
+    width: 335px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    line-height: 24.2px;
+}
+
+#percentage {
+    font-family: Pacifico;
+    font-size: 120px;
+    line-height: 50px;
+    width: 125px;
+    margin-right: 16px;
+}
+
+#clarification {
+    width: 194px;
+}
+
+#merino-image-caption {
+    margin-top: 14px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #707070;
+}
