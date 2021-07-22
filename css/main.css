@@ -83,14 +83,14 @@ body {
 }
 
 .menu-item-text {
-    margin: 7px 15px 7px 15px;
+    margin: 6px 15px 6px 15px;
     padding-bottom: 5px;
     border-bottom: 2px solid rgba(255, 255, 255, .2);
 }
 
 #creds {
     text-align: left;
-    margin-left: 37px;
+    margin-left: 40px;
     margin-top: 28px;
     width: 194px;
 }
