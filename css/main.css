@@ -89,6 +89,7 @@ body {
 }
 
 #creds {
+    line-height: 20.8px;
     text-align: left;
     margin-left: 40px;
     margin-top: 28px;
@@ -128,6 +129,10 @@ body {
 }
 
 #description {
+    padding-top: 16px;
+}
+
+#description > p {
     width: 795px;
     margin: auto;
     font-weight: 500;
@@ -135,7 +140,7 @@ body {
     font-size: 20px;
     line-height: 24.2px;
     text-align: center;
-    padding-top: 16px;
+    letter-spacing: 0.1px;
 }
 
 #article {
@@ -156,15 +161,20 @@ body {
     text-align: left;
     margin-top: 0px;
     margin-bottom: 16px;
+    letter-spacing: 0.2px;
 }
 
-#article-main-content p, #article-main-content a {
+.article-main-content-section {
+    margin: 0 0 16px 0;
+}
+
+.article-main-content-section p, .article-main-content-section a {
     font-size: 20px;
     font-weight: 400;
     font-style: normal;
     line-height: 24.2px;
     text-align: left;
-    margin: 0 0 16px 0;
+    margin: 0 0 0 0;
 }
 
 #article-main-content a {
@@ -199,6 +209,7 @@ body {
     text-align: left;
     margin-top: 12px;
     margin-bottom: 6px;
+    letter-spacing: 0.33px;
 }
 
 #article-additional-image-description p {
@@ -208,6 +219,7 @@ body {
     line-height: 19px;
     letter-spacing: 0em;
     text-align: left;
+    margin: 0 0 0 0;
 }
 
 #merino {
@@ -250,4 +262,8 @@ body {
     letter-spacing: 0em;
     text-align: left;
     color: #707070;
+}
+
+p.zero-margin {
+    margin: 0 0 0 0;
 }
